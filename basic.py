@@ -7,5 +7,4 @@ example_gen = tfx.components.CsvExampleGen(
     instance_name ='Data_Extraction_Spliting',
     input=external_input(DATA_ROOT),
     output_config=output_config
-    output_config=output_config
 )
